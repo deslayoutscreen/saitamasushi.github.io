@@ -308,6 +308,7 @@ a {
 }
 .foodmenu .col a img:hover {
   -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
       transform: scaleX(-1);
   -webkit-filter: FlipV;
@@ -777,11 +778,14 @@ a {
   }
   .foodmenu .col a img:hover {
     -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
         transform: scaleX(-1);
     -webkit-filter: FlipV;
             filter: FlipV;
     -webkit-transition: 0.94s !important;
+    -moz-transition: 0.94s !important;
+    -ms-transition: 0.94s !important;
     -o-transition: 0.94s !important;
     transition: 0.94s !important;
     opacity: 0.17 !important;
@@ -1231,11 +1235,14 @@ a {
   }
   .foodmenu .col a img:hover {
     -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
         transform: scaleX(-1);
     -webkit-filter: FlipV;
             filter: FlipV;
     -webkit-transition: 0.94s !important;
+    -moz-transition: 0.94s !important;
+    -ms-transition: 0.94s !important;
     -o-transition: 0.94s !important;
     transition: 0.94s !important;
     opacity: 0.17 !important;
@@ -1763,11 +1770,13 @@ a {
   }
   .foodmenu .col a img:hover {
     -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
         transform: scaleX(-1);
     -webkit-filter: FlipV;
             filter: FlipV;
     -webkit-transition: 0.94s !important;
+    -moz-transition: 0.94s !important;
     -o-transition: 0.94s !important;
     transition: 0.94s !important;
     opacity: 0.17 !important;
@@ -2288,12 +2297,15 @@ a {
   }
   .foodmenu .col a img:hover {
     -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
         transform: scaleX(-1);
     -webkit-filter: FlipV;
             filter: FlipV;
     -webkit-transition: 0.94s !important;
-    -o-transition: 0.94s !important;
+    -ms-transition: 0.94s !important;
+    -moz-transition: 0.94s !important;
+    -ms-transition: 0.94s !important;
     transition: 0.94s !important;
     opacity: 0.17 !important;
   }
