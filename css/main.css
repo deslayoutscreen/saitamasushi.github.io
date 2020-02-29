@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @font-face {
   font-family: "Montserrat-regular";
   src: url("../fonts/Montserrat-regular.woff") format("woff");
@@ -29,7 +31,10 @@ body {
 #contact,
 #welcome {
   -webkit-transition: 6s !important;
+  -o-transition: 6s !important;
   transition: 6s !important;
+  -moz-transition: 6s !important;
+  -ms-transition: 6s !important;
 }
 .container-fluid,
 .container-lg,
@@ -303,11 +308,15 @@ a {
 }
 .foodmenu .col a img:hover {
   -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+      transform: scaleX(-1);
   -webkit-filter: FlipV;
           filter: FlipV;
   -webkit-transition: 0.94s !important;
+  -o-transition: 0.94s !important;
   transition: 0.94s !important;
+  -moz-transition:0.94s !important;
+   -ms-transition:0.94s !important;
   opacity: 0.17 !important;
 }
 .foodmenu .col h6 {
@@ -402,11 +411,14 @@ a {
 .cardsush .col-md .card:hover {
   background: #7e8c7d;
   -webkit-transition: 0.85s !important;
+  -o-transition: 0.85s !important;
   transition: 0.85s !important;
+  -moz-transition: 0.85s !important;
 }
 .cardsush .col-md a:hover {
   border-bottom: 7px solid #3b694c !important;
   -webkit-transition: 0.94s !important;
+  -o-transition: 0.94s !important;
   transition: 0.94s !important;
   color: #e1e3e2 !important;
 }
@@ -490,6 +502,7 @@ a {
   #contact,
   #welcome {
     -webkit-transition: 6s !important;
+    -o-transition: 6s !important;
     transition: 6s !important;
   }
   .container-fluid,
@@ -764,10 +777,12 @@ a {
   }
   .foodmenu .col a img:hover {
     -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+        transform: scaleX(-1);
     -webkit-filter: FlipV;
             filter: FlipV;
     -webkit-transition: 0.94s !important;
+    -o-transition: 0.94s !important;
     transition: 0.94s !important;
     opacity: 0.17 !important;
   }
@@ -864,11 +879,13 @@ a {
   .cardsush .col-md .card:hover {
     background: #7e8c7d;
     -webkit-transition: 0.85s !important;
+    -o-transition: 0.85s !important;
     transition: 0.85s !important;
   }
   .cardsush .col-md a:hover {
     border-bottom: 7px solid #3b694c !important;
     -webkit-transition: 0.94s !important;
+    -o-transition: 0.94s !important;
     transition: 0.94s !important;
     color: #e1e3e2 !important;
   }
@@ -1214,10 +1231,12 @@ a {
   }
   .foodmenu .col a img:hover {
     -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+        transform: scaleX(-1);
     -webkit-filter: FlipV;
             filter: FlipV;
     -webkit-transition: 0.94s !important;
+    -o-transition: 0.94s !important;
     transition: 0.94s !important;
     opacity: 0.17 !important;
   }
@@ -1317,11 +1336,13 @@ a {
   .cardsush .col-md .card:hover {
     background: #7e8c7d;
     -webkit-transition: 0.85s !important;
+    -o-transition: 0.85s !important;
     transition: 0.85s !important;
   }
   .cardsush .col-md a:hover {
     border-bottom: 7px solid #3b694c !important;
     -webkit-transition: 0.94s !important;
+    -o-transition: 0.94s !important;
     transition: 0.94s !important;
     color: #e1e3e2 !important;
   }
@@ -1457,6 +1478,7 @@ a {
     display: none;
     margin: 0;
     -webkit-transition: 1s !important;
+    -o-transition: 1s !important;
     transition: 1s !important;
   }
   .menu ul .current {
@@ -1465,6 +1487,7 @@ a {
   .menu a {
     display: block;
     -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
     transition: 0s !important;
     text-align: right !important;
     background: transparent !important;
@@ -1484,13 +1507,15 @@ a {
   }
   .menu a img:hover {
     -webkit-transition: 0.45s !important;
+    -o-transition: 0.45s !important;
     transition: 0.45s !important;
     background: #ff6363 !important;
     border: 5px solid #000000 !important;
     border-radius: 100% 100% !important;
     padding: 3px !important;
     -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
   }
   .menu a .menu .current a {
     background: none;
@@ -1503,6 +1528,7 @@ a {
     display: block;
     margin: 0 0 5px;
     -webkit-transition: 0.85s !important;
+    -o-transition: 0.85s !important;
     transition: 0.85s !important;
   }
   .logo .col-md-5 {
@@ -1737,10 +1763,12 @@ a {
   }
   .foodmenu .col a img:hover {
     -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+        transform: scaleX(-1);
     -webkit-filter: FlipV;
             filter: FlipV;
     -webkit-transition: 0.94s !important;
+    -o-transition: 0.94s !important;
     transition: 0.94s !important;
     opacity: 0.17 !important;
   }
@@ -1836,11 +1864,13 @@ a {
   .cardsush .col-md .card:hover {
     background: #7e8c7d;
     -webkit-transition: 0.85s !important;
+    -o-transition: 0.85s !important;
     transition: 0.85s !important;
   }
   .cardsush .col-md a:hover {
     border-bottom: 7px solid #3b694c !important;
     -webkit-transition: 0.94s !important;
+    -o-transition: 0.94s !important;
     transition: 0.94s !important;
     color: #e1e3e2 !important;
   }
@@ -1977,6 +2007,7 @@ a {
     display: none;
     margin: 0;
     -webkit-transition: 1s !important;
+    -o-transition: 1s !important;
     transition: 1s !important;
   }
   .menu ul .current {
@@ -1985,6 +2016,7 @@ a {
   .menu a {
     display: block;
     -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
     transition: 0s !important;
     text-align: right !important;
     background: transparent !important;
@@ -2004,13 +2036,15 @@ a {
   }
   .menu a img:hover {
     -webkit-transition: 0.45s !important;
+    -o-transition: 0.45s !important;
     transition: 0.45s !important;
     background: #ff6363 !important;
     border: 5px solid #000000 !important;
     border-radius: 100% 100% !important;
     padding: 3px !important;
     -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
   }
   .menu a .menu .current a {
     background: none;
@@ -2023,6 +2057,7 @@ a {
     display: block;
     margin: 0 0 5px;
     -webkit-transition: 0.85s !important;
+    -o-transition: 0.85s !important;
     transition: 0.85s !important;
   }
   .logo .col-md-5 {
@@ -2253,10 +2288,12 @@ a {
   }
   .foodmenu .col a img:hover {
     -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+        transform: scaleX(-1);
     -webkit-filter: FlipV;
             filter: FlipV;
     -webkit-transition: 0.94s !important;
+    -o-transition: 0.94s !important;
     transition: 0.94s !important;
     opacity: 0.17 !important;
   }
@@ -2353,11 +2390,13 @@ a {
   .cardsush .col-md .card:hover {
     background: #7e8c7d;
     -webkit-transition: 0.85s !important;
+    -o-transition: 0.85s !important;
     transition: 0.85s !important;
   }
   .cardsush .col-md a:hover {
     border-bottom: 7px solid #3b694c !important;
     -webkit-transition: 0.94s !important;
+    -o-transition: 0.94s !important;
     transition: 0.94s !important;
     color: #e1e3e2 !important;
   }
